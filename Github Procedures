@@ -1,0 +1,26 @@
+How to Upload Project to Github
+
+create a new repository on the command line
+
+// echo "# Upload-to-Github" >> README.md
+> git init
+//git add README.md
+>git add .
+> git commit -m "first commit"
+// git branch -M main
+> git remote add origin https://github.com/madallah/Upload-to-Github.git
+> git push -u origin main
+
+> git config --global user.name "YourName"
+> git config --global user.email "Email"
+
+
+//push an existing repository from the command line
+
+//git remote add origin https://github.com/madallah/Upload-to-Github.git
+//git branch -M main
+//git push -u origin main
+
+//import code from another repository
+
+
